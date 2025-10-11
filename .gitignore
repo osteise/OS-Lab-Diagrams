@@ -1,0 +1,8 @@
+# png in src
+src/*.png
+
+# PyCharm project files
+.idea/
+
+# Virtual environment
+.venv/
