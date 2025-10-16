@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 data = {
-    "Process without setdl": [6,2,5,5,6,6,5,6,6],
-    "Process with setdl": [9,8,7,8,9,10,7,9,10]
+    "Process without setdl": [5, 10, 5, 9, 7, 10, 10, 10, 8, 5],
+    "Process with setdl": [8, 8, 10, 7, 10, 10, 10, 10, 10, 10]
 }
 
 df = pd.DataFrame(data)

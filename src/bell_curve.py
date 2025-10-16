@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Put data here
-data = [9, 10, 8, 7, 8, 9, 10, 9, 10, 10]
+data = [5, 10, 5, 9, 7, 10, 10, 10, 8, 5]
 
 # Convert data into a pandas DataFrame
 df = pd.DataFrame(data, columns=["values"])
