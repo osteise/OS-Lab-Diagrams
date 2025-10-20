@@ -29,7 +29,7 @@ plt.hist(df1_values, bins=5, density=True, alpha=0.8, color="lightgreen", edgeco
 x = np.linspace(df_values.min(), df_values.max())
 
 # Plot a bell curve using data's mean and std
-plt.plot(x, stats.norm.pdf(x, mean, std), color='red', label="Normal Distribution")
+plt.plot(x, stats.norm.pdf(x, mean, std), color='blue', label="Original Normal Distribution")
 plt.plot(x, stats.norm.pdf(x, mean1, std1), color='green', label="Normal Distribution")
 
 # Add titles, labels, legend and grid
